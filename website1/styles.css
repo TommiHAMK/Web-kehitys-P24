@@ -3,6 +3,8 @@ body {
     color: #242424;
     line-height: 1.5;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(images/bg.avif);
+    background-size: cover;  
 }
 
 .container {
@@ -50,4 +52,9 @@ footer {
     border-top: 1px dotted #e5e5e5;
     padding-top: 14px;
     font-size: 10px;
+}
+
+article img {
+    width: 100%;
+    height: auto;
 }
