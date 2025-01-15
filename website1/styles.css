@@ -1,0 +1,53 @@
+body {
+    background-color: white;
+    color: #242424;
+    line-height: 1.5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    width: 700px;
+    margin: 10px auto; 
+    /* 
+    10px marginaalia ylhäällä ja alhaalla
+    ja vasemmalla ja oikealla marginaali on 
+    automaattinen
+    KÄYTÄNNÖSSÄ, KESKITTÄÄ
+    */
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+}
+
+nav li {
+    display: inline;
+}
+
+nav ul {
+    padding-left: 0;
+}
+
+nav {
+    background-color: #e5e5e5;
+    padding: 14px 24px 14px 24px;
+}
+
+nav a, nav:visited, a:active {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #242424;
+    font-weight: bold;
+    margin-right: 24px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    border-top: 1px dotted #e5e5e5;
+    padding-top: 14px;
+    font-size: 10px;
+}
