@@ -1,0 +1,53 @@
+.card {
+    border: 1px solid black;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 18px;
+}
+
+.card img {
+    width: 100%;
+}
+
+
+.cta-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px; /* Space between text and icon */
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #007BFF; /* Your preferred color */
+    border-radius: 5px;
+    transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
+  }
+  
+  .cta-button .arrow {
+    transition: transform 0.3s;
+  }
+  
+  .cta-button:hover {
+    background-color: #0056b3; /* Darker color for hover */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .cta-button:hover .arrow {
+    transform: translateX(5px); /* Moves the arrow slightly to the right */
+  }
+  
+  .cta-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+  }
+  
+
+@media (max-width: 540px) {
+    .card-container {
+        grid-template-columns: 1fr;
+    }
+}
